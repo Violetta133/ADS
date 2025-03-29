@@ -40,6 +40,13 @@ public class Main {
         // 9
         System.out.println("C(2,1) = " + BinomialCoefficient.binomialCoefficient(2, 1)); // Output: 2
         System.out.println("C(7,3) = " + BinomialCoefficient.binomialCoefficient(7, 3)); // Output: 35
+
+        // 10
+        int a = 32, b = 48;
+        int c = 10, d = 7;
+        System.out.println("GCD of " + a + " and " + b + " is: " + GCD.gcd(a, b));
+        System.out.println("GCD of " + c + " and " + d + " is: " + GCD.gcd(c, d));
+
         }
     }
 
