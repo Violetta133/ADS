@@ -15,7 +15,15 @@ public class Main {
         System.out.println(num2 + " is " + (PrimeChecker.isPrime(num2) ? "Prime" : "Composite"));
 
         // 4
-        int n = 5; // Example input
+        int n = 5;
         System.out.println(FactorialRecursive.factorial(n));
+
+        //5
+        int n1 = 5;
+        int n2 = 17;
+        System.out.println( n1 + " = " + FibonacciRecursive.fibonacci(n1));
+        System.out.println( n2 + " = " + FibonacciRecursive.fibonacci(n2));
+
+
     }
 }
