@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         // 1
@@ -24,6 +26,12 @@ public class Main {
         System.out.println( n1 + " = " + FibonacciRecursive.fibonacci(n1));
         System.out.println( n2 + " = " + FibonacciRecursive.fibonacci(n2));
 
+        // 7
+            int i = 4;
+            int[] numbers = {1, 4, 6, 2}; // Заданный массив
 
+            ReversePrint.reversePrint(i - 1, numbers); // Вызов рекурсивной функции
+        }
     }
-}
+
+
