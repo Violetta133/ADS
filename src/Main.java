@@ -38,7 +38,8 @@ public class Main {
         System.out.println(s2 + " -> " + (CheckDigits.isAllDigits(s2, 0) ? "No" : "Yes"));
 
         // 9
-
+        System.out.println("C(2,1) = " + BinomialCoefficient.binomialCoefficient(2, 1)); // Output: 2
+        System.out.println("C(7,3) = " + BinomialCoefficient.binomialCoefficient(7, 3)); // Output: 35
         }
     }
 
