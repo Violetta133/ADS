@@ -27,10 +27,18 @@ public class Main {
         System.out.println( n2 + " = " + FibonacciRecursive.fibonacci(n2));
 
         // 7
-            int i = 4;
-            int[] numbers = {1, 4, 6, 2}; // Заданный массив
+        int i = 4;
+        int[] numbers = {1, 4, 6, 2};
+        ReversePrint.reversePrint(i - 1, numbers);
 
-            ReversePrint.reversePrint(i - 1, numbers); // Вызов рекурсивной функции
+         // 8
+        String s1 = "123456";
+        String s2 = "123a12";
+        System.out.println(s1 + " -> " + (CheckDigits.isAllDigits(s1, 0) ? "Yes" : "No"));
+        System.out.println(s2 + " -> " + (CheckDigits.isAllDigits(s2, 0) ? "No" : "Yes"));
+
+        // 9
+
         }
     }
 
