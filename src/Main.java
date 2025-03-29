@@ -13,5 +13,9 @@ public class Main {
         int num2 = 10;
         System.out.println(num1 + " is " + (PrimeChecker.isPrime(num1) ? "Prime" : "Composite"));
         System.out.println(num2 + " is " + (PrimeChecker.isPrime(num2) ? "Prime" : "Composite"));
+
+        // 4
+        int n = 5; // Example input
+        System.out.println(FactorialRecursive.factorial(n));
     }
 }
