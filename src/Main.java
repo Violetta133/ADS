@@ -26,9 +26,8 @@ public class Main {
         System.out.println(n2 + " = " + FibonacciRecursive.fibonacci(n2));
 
         // 6
-        double a = 2;
-        int s = 10;
-        System.out.println(a + "^" + n + " = " + power(a, s));
+        DegreeFinder df = new DegreeFinder(2, 10);
+        System.out.println("2^10 = " + df.calculateDegree());
 
         // 7
         int i = 4;

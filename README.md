@@ -59,12 +59,12 @@ Each call to fibonacci(n) makes two recursive calls (fibonacci(n-1) and fibonacc
 ## Problem 6
 **Function**
 
-Power Calculation
-Computes a^n using Math.pow(a, s), implemented in PowerCalculator.power(int e, int ).
+Computes the power of a base number raised to an exponent.
+Implemented in DegreeFinder.calculateDegree().
 
 **Time Complexity**
-O(log n) (Exponentiation by squaring)
-
+O(n) (Linear time complexity).
+The algorithm iterates w times, multiplying the base m in each step.
 
 ## Problem 7
 **Function**
